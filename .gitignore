@@ -8,3 +8,5 @@ uploads
 *.gz
 *.txt
 package-lock.json
+
+/docker/*-compose.yml

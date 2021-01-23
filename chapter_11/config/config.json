@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "nodebird",
+    "password": "nodebird1234567",
+    "database": "nodebird",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "33000"
+  },
+  "test": {
+    "username": "nodebird",
+    "password": "nodebird1234567",
+    "database": "nodebird_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "33000"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
