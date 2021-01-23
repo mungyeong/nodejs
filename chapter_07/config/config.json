@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "nodejs",
+    "password": "nodejs1234567",
+    "database": "nodejs",
+    "host": "127.0.0.1",
+    "port": "33000",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "nodejs",
+    "password": "nodejs1234567",
+    "database": "nodejs",
+    "host": "127.0.0.1",
+    "port": "33000",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "nodejs",
+    "password": "nodejs1234567",
+    "database": "nodejs",
+    "host": "127.0.0.1",
+    "port": "33000",
+    "dialect": "mysql"
+  }
+}

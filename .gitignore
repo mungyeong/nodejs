@@ -1,0 +1,10 @@
+.idea
+/nodejs.iml
+node_modules
+folder
+uploads
+
+
+*.gz
+*.txt
+package-lock.json
