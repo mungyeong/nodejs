@@ -31,7 +31,7 @@ const sessionMiddleware = session({
 		httpOnly: true,
 		secure  : false,
 	},
-})
+});
 
 app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "public")));
