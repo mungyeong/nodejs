@@ -37,7 +37,7 @@ module.exports = (server, app, sessionMiddleware) => {
 			console.log("chat 네임스페이스 접속 해제");
 			socket.leave(roomId);
 			const currentRoom = socket.adapter.rooms.get(roomId);
-			const userCount = currentRoom && 0;
+			const userCount = currentRoom ? currentRoom.size : 0;
 			if (userCount === 0) {
 				const signedCookie = cookie.sign(req.signedCookies['connect.sid'], process.env.COOKIE_SECRET);
 				const connectSID = `${signedCookie}`;
