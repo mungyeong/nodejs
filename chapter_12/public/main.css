@@ -22,7 +22,7 @@
     font-size: 12px;
 }
 
-.mine:last-child, .other:last-child {
+.mine div:last-child, .other div:last-child {
     display: inline-block;
     border: 1px solid silver;
     border-radius: 5px;
